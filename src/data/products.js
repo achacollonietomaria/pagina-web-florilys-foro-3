@@ -1,0 +1,10 @@
+export const products = [
+  { id: 'mini-bouquet', name: 'Mini Bouquet', type: 'Arreglo pequeño', price: 35, color: 'lavender', image: 'bouquet-of-lilies.jpg', description: 'Un detalle delicado y espontáneo para alegrar cualquier rincón.', tags: ['Flores silvestres', 'Lavanda'] },
+  { id: 'campo', name: 'Campo', type: 'Flores silvestres', price: 60, color: 'yellow', image: 'descargar-74.jpg', description: 'La frescura de un paseo por el campo, reunida en un ramo luminoso.', tags: ['Margaritas', 'Follaje'] },
+  { id: 'amanecer', name: 'Amanecer', type: 'Tonos cálidos', price: 85, color: 'pink', image: 'pink-bouquet.jpg', description: 'Un despertar de colores suaves y texturas delicadas para celebrar nuevos comienzos.', tags: ['Rosas peach', 'Lisianthus', 'Eucalipto'] },
+  { id: 'jardin', name: 'Jardín', type: 'Abundancia verde', price: 110, color: 'green', image: 'descargar-75.jpg', description: 'Una composición exuberante, fresca y llena de movimiento.', tags: ['Verdes', 'Texturas'] },
+  { id: 'romance', name: 'Romance', type: 'Clásico elegante', price: 150, color: 'red', image: 'descargar-76.jpg', description: 'La expresión atemporal de un sentimiento que merece flores.', tags: ['Rosas', 'Peonías'] },
+  { id: 'primavera', name: 'Primavera', type: 'Colores vibrantes', price: 180, color: 'multicolor', image: 'flower-4.jpg', description: 'Una explosión de color para celebrar la vida en grande.', tags: ['Color', 'Flores de temporada'] },
+  { id: 'elegancia', name: 'Elegancia', type: 'Diseño exclusivo', price: 220, color: 'white', image: 'bridal-pink.jpg', description: 'Diseño refinado y sereno para ocasiones verdaderamente especiales.', tags: ['Lisianthus', 'Rosas blancas'] },
+  { id: 'gran-bouquet', name: 'Gran Bouquet', type: 'Impacto total', price: 250, color: 'pink', image: 'bridal-callas.jpg', description: 'Nuestro arreglo más abundante: presencia, textura y emoción.', tags: ['Mix floral', 'Follaje'] },
+]
