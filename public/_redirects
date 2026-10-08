@@ -1,1 +1,10 @@
-/*    /index.html   200
+/productos /index.html 200
+/productos/* /index.html 200
+/ramos /index.html 200
+/ramos/* /index.html 200
+/detalle /index.html 200
+/detalle/* /index.html 200
+/carrito /index.html 200
+/nosotros /index.html 200
+/quienes-somos /index.html 200
+/contacto /index.html 200
