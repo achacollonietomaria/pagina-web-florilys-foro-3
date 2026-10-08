@@ -1,0 +1,29 @@
+.cart-link { position: relative; }
+.cart-detail { display: block; margin-top: 5px; color: var(--muted); }
+.conditional-visible { margin: 16px 0 0; }
+.payment-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.payment-option { display: flex; align-items: center; gap: 8px; min-height: 52px; padding: 12px 14px; color: var(--plum); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; transition: background .25s ease, border-color .25s ease, transform .25s ease; }
+.payment-option:hover { transform: translateY(-2px); }
+.payment-option:has(input:checked) { background: var(--rose); border-color: var(--plum); }
+.payment-option input { accent-color: var(--plum); }
+.checkout-layout { display: grid; grid-template-columns: .7fr 1.3fr; gap: 55px; padding: 30px 0 100px; }
+.checkout-layout .page-title { font-size: 42px; }
+.checkout-layout .form-panel { min-width: 0; }
+.checkout-subsection { margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--line); }
+.checkout-subsection h3 { margin-bottom: 14px; }
+.checkout-note { margin: 10px 0 0; color: var(--muted); font-size: 13px; }
+.checkout-options { margin: 24px 0 28px; padding-top: 22px; border-top: 1px solid var(--line); }
+.delivery-option { border-radius: 8px; }
+.summary { position: sticky; top: 100px; padding: 30px; background: var(--soft); }
+.summary h2 { margin-bottom: 25px; font-size: 32px; }
+.total-line { display: flex; justify-content: space-between; padding: 10px 0; color: var(--muted); }
+.total-line.final { margin-top: 10px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--plum); font-size: 22px; font-weight: 600; }
+.empty .btn { margin-top: 20px; }
+.petals { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 5; }
+
+@media (max-width: 800px) {
+  .checkout-layout { grid-template-columns: 1fr; gap: 18px; padding-bottom: 65px; }
+  .checkout-layout .page-title { font-size: 36px; }
+  .payment-options { grid-template-columns: 1fr; }
+  .summary { position: static; }
+}
