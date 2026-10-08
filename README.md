@@ -2,6 +2,11 @@
 
 SPA para una florería, construida con React 19 y Vite. La interfaz y el contenido están en español; los productos e imágenes se sirven localmente.
 
+## Enlaces
+
+- Repositorio: https://github.com/achacollonietomaria/pagina-web-florilys-foro-3
+- Sitio publicado: https://pagina-web-florilys-foro-3.netlify.app/
+
 ## Ejecutar
 
 Requiere Node.js y npm:
